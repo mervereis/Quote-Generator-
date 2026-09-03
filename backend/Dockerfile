@@ -3,4 +3,5 @@ ENV NODE_ENV=production
 COPY . /app
 WORKDIR /app
 RUN npm --omit=dev ci
-ENTRYPOINT ["node", "backend.js"]
+EXPOSE 3000
+ENTRYPOINT ["node", "index.js"]
