@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section {
+  background: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.quote-section {
+  text-align: center;
+}
+
+#quote {
+  font-size: 24px;
+  font-style: italic;
+}
+
+#author {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+form button {
+  margin-top: 20px;
+}
+
+#message {
+  margin-top: 15px;
+}
