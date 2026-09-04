@@ -1,4 +1,5 @@
-const API_URL = "http://127.0.0.1:3000";
+const API_URL =
+  "https://2tmbt9zfz9nkcxnyzmu4ioce.trainees.hosting.cyf.academy/";
 
 const quoteElement = document.querySelector("#quote");
 const authorElement = document.querySelector("#author");
